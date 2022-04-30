@@ -1,0 +1,149 @@
+body {
+    background-color: #1E232E;
+    margin: 0;
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #787E91;
+    width: 100%;
+    padding: 1em;
+    font-size: 140%;
+    left: 0;
+    
+}
+#headerLogo {
+    flex: 0.3;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+
+}
+#socials {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 75%;
+    height: 75%;
+
+
+}
+#socials a img{
+    flex: 1;
+    height: 65%;
+    width: 65%;
+    padding: 5%;
+    padding-right: 10%;
+    padding-left: 60%;
+    object-fit: contain;
+    
+}
+#nav {
+    flex: 2;
+    text-align: center;
+    margin-right: 10%;
+}
+
+header h1 {
+    color: #F5F3F5;
+    font-weight: 600;
+    display: inline;
+    margin: 0;
+    margin-left: 5%;
+    width: 100%;
+    padding-bottom: 3px;
+    font-size: 125%;
+    text-align:left;
+    border-bottom: 1px solid #70AAC7;
+}
+
+nav a {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    opacity: .7;
+    padding: 0 1em;
+    color: #F5F3F5;
+    text-align: center;
+}
+div#landing {
+    height: 300vh;
+    width: 100%;
+}
+div#about {
+    height: 100vh;
+    width: 100%;
+}
+div#landing div.background {
+    display: flex;
+    align-items: center;
+    height: 33%;
+    width: 100%;
+}
+div#about div.background {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+div.main>.background:nth-child(odd), div.background:nth-child(even) .container {
+    background-color: #1E232E;
+}
+div.main>.background:nth-child(even), div.background:nth-child(odd) .container {
+    background-color: #456494;
+}
+div.container{
+    display: flex;
+    height: 60%;
+    width: 60%;
+    margin: auto;
+    border: outset 1px #787E91
+}
+
+div.content, div.image{
+    flex: 1;
+    height: 100%;
+    margin: 0;
+}
+div.image img{
+    display: block;
+    margin: auto;
+    height: 94%;
+    width: 94%;
+    object-fit: contain;
+    padding: 3%;
+}
+div.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1%;
+}
+div.content p {
+    font-weight: 500;
+    font-size: 1.5em;
+    color: #F5F3F5;
+    padding-left: 10%
+
+}
+div.content h1 {
+    font-weight: 700;
+    font-size: 3.5em;
+    color: #F5F3F5;
+    float: left;
+    text-align: left;
+}
+footer {
+    text-align: center;
+    background-color: #787E91;
+    color: #1E232E;
+    font-weight: 300;
+    margin: 0;
+}
