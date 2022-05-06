@@ -49,6 +49,9 @@ header {
     text-align: center;
     margin-right: 10%;
 }
+#nav a:hover{
+    color: #70AAC7
+}
 
 header h1 {
     color: #F5F3F5;
