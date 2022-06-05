@@ -53,6 +53,10 @@ header {
     color: #70AAC7
 }
 
+#nav a:active{
+    color: #000000
+}
+
 header h1 {
     color: #F5F3F5;
     font-weight: 600;
@@ -76,7 +80,7 @@ nav a {
     text-align: center;
 }
 div#landing {
-    height: 300vh;
+    height: 400vh;
     width: 100%;
 }
 div#about {
@@ -103,8 +107,8 @@ div.main>.background:nth-child(even), div.background:nth-child(odd) .container {
 }
 div.container{
     display: flex;
-    height: 60%;
-    width: 60%;
+    height: 80%;
+    width: 80%;
     margin: auto;
     border: outset 1px #787E91
 }
